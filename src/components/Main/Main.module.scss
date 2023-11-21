@@ -1,0 +1,45 @@
+.Main {
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: 15px 6px 8px 0px rgba(34, 60, 80, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #fafafa;
+    padding: 30px 0;
+}
+
+.title {
+    opacity: .7;
+    span {
+        color: #6610f2;
+    }
+}
+
+.inp {
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    background: #fafafa;
+    color: #000;
+    border: 2px solid rgb(188, 185, 185);
+    &::placeholder {
+        color: rgb(188, 185, 185);
+        padding: 0 20px;
+    }
+}
+
+.btn {
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background: #6610f2;
+    color: #fafafa;
+    font-weight: 700;
+    &:hover {
+        box-shadow: 4px 4px 70px 0px #6610f2;
+    }
+}

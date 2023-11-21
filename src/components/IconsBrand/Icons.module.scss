@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+}
+
+box-icon:hover,
+box-icon:focus {
+    transform: scale(1.525);
+    transition: .1s;
+}
